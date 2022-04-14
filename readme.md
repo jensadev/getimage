@@ -2,6 +2,7 @@
 
 ```js
 const getimage = require('@zvorak/getimage');
-
-getimage('https://jensa.xyz/', './images');
+```
+```js
+await getimage('https://jensa.xyz/', './images'); // returns filename.png
 ```
