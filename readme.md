@@ -3,7 +3,5 @@
 ```js
 const getimage = require('@zvorak/getimage');
 
-const urls = ['https://jensa.xyz/'];
-
-getImages(urls, './images');
+getimage('https://jensa.xyz/', './images');
 ```
